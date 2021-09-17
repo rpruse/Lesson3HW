@@ -6,24 +6,32 @@ namespace Lesson3HW
     {
         static void Main(string[] args)
         {
+            var phone = new Appl3();
 
-            string Marka = Console.ReadLine();
             Console.WriteLine($"Marka");
-            string Modelis = Console.ReadLine();
+            string Marka = Console.ReadLine();
             Console.WriteLine($"Modelis");
+            string Modelis = Console.ReadLine();
 
-            string Garumsphone = Console.ReadLine();
-            int Garums = int.Parse(Garumsphone);
-            Console.WriteLine(Garums);
+            Console.WriteLine("Garums");
+            string Garums = Console.ReadLine();
+            int Garums1 = int.Parse(Garums);
 
-            string Platumnsphone = Console.ReadLine();
-            int Platums = int.Parse(Platumnsphone);
-            Console.WriteLine(Platums);
+            Console.WriteLine("Platums");
+            string Platumns = Console.ReadLine();
+            int Platums1 = int.Parse(Platumns);
 
-            string Augstumsphone = Console.ReadLine();
-            int Augstums = int.Parse(Augstumsphone);
-            Console.WriteLine(Augstums);
+            Console.WriteLine("Augstums");
+            string Augstums = Console.ReadLine();
+            int Augstums1 = int.Parse(Augstums);
 
+            phone.Marka = "Opel";
+            phone.Modelis = "Astra";
+            phone.Garums = 40;
+            phone.Platums = 15;
+            phone.Augstums = 10;
+
+            Console.WriteLine("----------------------------------------------");
 
         }
     }
