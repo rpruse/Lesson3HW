@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace Lesson3HW
 {
-   public class Appl3
+   public class Appl3 : Appl3Base
     {
         public string Marka { get; set; }
-        public string Model { get; set; }
+        public string Modelis { get; set; }
         public int Garums { get; set; }
         public int Platums { get; set; }
         public int Augstums { get; set; }
-        public string Iespējazvanīt()
-        {
-            return"";
-        }
+        public void Iespējazvanīt() { }
+
+        public void Iespējanosūtītsms() { }
 
 
     }
