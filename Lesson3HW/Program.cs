@@ -42,17 +42,16 @@ namespace Lesson3HW
             Console.WriteLine($"Marka1");
             string Marka1 = Console.ReadLine();
 
-
-            Console.WriteLine("Nummurzīme");
+            Console.WriteLine($"Nummurzīme");
             string Nummurzīme = Console.ReadLine();
-            int Numurs = int.Parse(Nummurzīme);
+
 
             Console.WriteLine("Ātrums");
             string Ātrums = Console.ReadLine();
             int Speed = int.Parse(Ātrums);
 
             Car.Marka1 = "Opel";
-            Car.Nummurzīme = "JD10";
+            Car.Nummurzīme = "Rudite";
             Car.Ātrums = 200;
 
             string beep = Car.BeigtBraukt();
