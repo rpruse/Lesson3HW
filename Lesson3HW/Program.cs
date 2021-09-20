@@ -39,10 +39,23 @@ namespace Lesson3HW
 
             Console.WriteLine("Sveiki, uzraksti lūdzu mašīnas parametrus");
 
-            Console.WriteLine($"Marka");
-            string Marka = Console.ReadLine();
-            Console.WriteLine($"Nummurzīme");
+            Console.WriteLine($"Marka1");
+            string Marka1 = Console.ReadLine();
+
+
+            Console.WriteLine("Nummurzīme");
             string Nummurzīme = Console.ReadLine();
+            int Numurs = int.Parse(Nummurzīme);
+
+            Console.WriteLine("Ātrums");
+            string Ātrums = Console.ReadLine();
+            int Speed = int.Parse(Ātrums);
+
+            string beep = Opel.BeigtBraukt();
+            Console.WriteLine(beep);
+
+            Console.WriteLine("----------------------------------------------");
+
 
 
 
