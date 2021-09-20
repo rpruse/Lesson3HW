@@ -51,7 +51,11 @@ namespace Lesson3HW
             string Ātrums = Console.ReadLine();
             int Speed = int.Parse(Ātrums);
 
-            string beep = Opel.BeigtBraukt();
+            Car.Marka1 = "Opel";
+            Car.Nummurzīme = "JD10";
+            Car.Ātrums = 200;
+
+            string beep = Car.BeigtBraukt();
             Console.WriteLine(beep);
 
             Console.WriteLine("----------------------------------------------");
