@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson3HW
 {
-    class Opel
+    public class Opel
     {
         public string Marka1 { get; set; }
         public string Nummurzīme { get; set; }
