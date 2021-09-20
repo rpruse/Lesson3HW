@@ -25,10 +25,10 @@ namespace Lesson3HW
             string Augstums = Console.ReadLine();
             int Augstums1 = int.Parse(Augstums);
 
-            phone.Marka = "Opel";
-            phone.Modelis = "Astra";
-            phone.Garums = 40;
-            phone.Platums = 15;
+            phone.Marka = "Samsung";
+            phone.Modelis = "Galaxy";
+            phone.Garums = 20;
+            phone.Platums = 1;
             phone.Augstums = 10;
 
             Console.WriteLine("----------------------------------------------");
