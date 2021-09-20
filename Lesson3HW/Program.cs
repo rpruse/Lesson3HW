@@ -8,6 +8,8 @@ namespace Lesson3HW
         {
             var phone = new Appl3();
 
+            Console.WriteLine("Sveiki, uzraksti lūdzu telefona parametrus");
+
             Console.WriteLine($"Marka");
             string Marka = Console.ReadLine();
             Console.WriteLine($"Modelis");
