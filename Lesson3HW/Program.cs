@@ -35,6 +35,17 @@ namespace Lesson3HW
 
             Console.WriteLine("----------------------------------------------");
 
+            var Car = new Opel();
+
+            Console.WriteLine("Sveiki, uzraksti lūdzu mašīnas parametrus");
+
+            Console.WriteLine($"Marka");
+            string Marka = Console.ReadLine();
+            Console.WriteLine($"Nummurzīme");
+            string Nummurzīme = Console.ReadLine();
+
+
+
         }
     }
 }
