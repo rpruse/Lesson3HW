@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson3HW
 {
-   public class Appl3 :
+   public class Appl3
     {
         public string Marka { get; set; }
         public string Modelis { get; set; }
